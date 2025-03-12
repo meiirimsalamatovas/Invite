@@ -42,16 +42,18 @@ import { BsPause, BsPlay } from "react-icons/bs";
 
 export default function Music() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(new Audio("/audio.mp3"));
+  const audioRef = useRef(new Audio("/Invite/audio.mp3"));
+
 
   const toggleMusic = () => {
     if (isPlaying) {
       audioRef.current.pause();
     } else {
-      audioRef.current.play();
+      audioRef.current.play().catch(err => console.error("Ошибка воспроизведения:", err));
     }
     setIsPlaying(!isPlaying);
   };
+  
 
   return (
     <div className="music-container">
