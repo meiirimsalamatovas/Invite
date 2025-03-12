@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./component/Header";
+import Music from "./component/Music";
+import Invitation from "./component/Invitation";
+import Countdown from "./component/Countdown";
 
-function App() {
+import AppRoutes from "./routes";
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+      <Header />
+      <Music />
+      <Invitation />
+      <Countdown />
+      <AppRoutes />
     </div>
   );
 }
-
-export default App;
