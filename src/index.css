@@ -2,11 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;700&display=swap');
 
 /* Основные стили */
+
+
+
 body {
     font-family: 'Noto Serif Display', serif;
-    background: url('https://i.pinimg.com/736x/7a/dd/d5/7addd5d5a26449504bd57106f86d30c0.jpg') no-repeat center center fixed;
+    background: url('https://i.pinimg.com/736x/a1/36/46/a136466568d9a4b5f61cc749b54863be.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #000;
+    color: white;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -41,7 +44,7 @@ body {
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background-color: #c69c6d;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +92,7 @@ button:hover {
 #section-title{
     font-size: 3rem;
     font-weight: bold;
-    color: #c69c6d;
+    color: white;
     margin: 20px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -109,7 +112,7 @@ button:hover {
 .invitation-dresscode,
 .invitation-text {
     font-size: 2rem;
-    color: #333333;
+    color: white;
     margin-top: 30px;
 }
 
@@ -146,7 +149,7 @@ button:hover {
     gap: 15px;
     font-size: 3rem;
     font-weight: bold;
-    color: #111;
+    color: white;
 }
 
 .countdown div {
@@ -160,7 +163,7 @@ button:hover {
 .countdown span {
     font-size: 1.5rem;
     font-weight: normal;
-    color: #777;
+    color:white;
     margin-top: -5px;
 }
 
@@ -170,7 +173,7 @@ form {
     border-radius: 15px;
     display: block;
     margin: 50px auto;
-    color: #000;
+    color: white;
     width: 90%;
     max-width: 600px;
     box-sizing: border-box;
@@ -265,9 +268,7 @@ input, textarea {
 }
 
 @media (max-width: 320px) {
-    body {
-        font-size: 0.9rem;
-    }
+
 
     .music-button {
         width: 50px;
