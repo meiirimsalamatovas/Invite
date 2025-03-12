@@ -7,9 +7,9 @@
 
 body {
     font-family: 'Noto Serif Display', serif;
-    background: url('https://i.pinimg.com/736x/a1/36/46/a136466568d9a4b5f61cc749b54863be.jpg') no-repeat center center fixed;
+    background: url('https://i.pinimg.com/736x/c6/de/00/c6de00bcdda65e6016bcec7653a55754.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: white;
+    color: #000;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -44,7 +44,7 @@ body {
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #c69c6d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +92,7 @@ button:hover {
 #section-title{
     font-size: 3rem;
     font-weight: bold;
-    color: white;
+    color: #c69c6d;
     margin: 20px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -112,7 +112,7 @@ button:hover {
 .invitation-dresscode,
 .invitation-text {
     font-size: 2rem;
-    color: white;
+    color: #333333;
     margin-top: 30px;
 }
 
@@ -149,7 +149,7 @@ button:hover {
     gap: 15px;
     font-size: 3rem;
     font-weight: bold;
-    color: white;
+    color: #111;
 }
 
 .countdown div {
@@ -163,7 +163,7 @@ button:hover {
 .countdown span {
     font-size: 1.5rem;
     font-weight: normal;
-    color:white;
+    color: #777;
     margin-top: -5px;
 }
 
@@ -173,7 +173,7 @@ form {
     border-radius: 15px;
     display: block;
     margin: 50px auto;
-    color: white;
+    color: #000;
     width: 90%;
     max-width: 600px;
     box-sizing: border-box;
