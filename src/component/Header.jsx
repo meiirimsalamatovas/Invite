@@ -6,6 +6,8 @@ export default function Header() {
           alt="Headerr"
           className="header-image"
         />
+        <img
+        src=""></img>
       </div>
     );
   }
